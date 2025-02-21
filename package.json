@@ -5,15 +5,21 @@
   "main": "index.js",
   "scripts": {
     "dev": "node src/server.js",
-    "format:fix": "prettier . --write",
     "format:check": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Haris E <harisejaz2206@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
     "prettier": "3.5.1",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
   }
 }
