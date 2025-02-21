@@ -1,3 +1,5 @@
+// .env configuration
+
 import { config } from 'dotenv'
 
 config()
