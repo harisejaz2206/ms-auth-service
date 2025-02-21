@@ -1,15 +1,3 @@
-// console.log("Hello World!")
+import { Config } from './config'
 
-const welcome = (name: string) => {
-  console.log(`Welcome ${name}`)
-
-  const user = {
-    name: 'Haris',
-  }
-
-  const u1 = user.name
-  return u1
-  console.log(`Welcome ${name}`)
-}
-console.log()
-welcome('Haris Ejaz!')
+console.log(Config.PORT)
